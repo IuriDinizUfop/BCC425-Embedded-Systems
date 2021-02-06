@@ -1,0 +1,79 @@
+Dependencies for Project 'Blinky', Target 'STM32F401 Flash': (DO NOT MODIFY !)
+CompilerVersion: 5060960::V5.06 update 7 (build 960)::.\ARMCC
+F (.\Retarget.c)(0x5320AE3E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\_STM32F401_Flash-IC:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\flash\retarget.o --omf_browse .\flash\retarget.crf --depend .\flash\retarget.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F64222C)
+I (C:\Keil_v5\ARM\ARMCC\include\rt_misc.h)(0x5F64222C)
+I (C:\Keil_v5\ARM\ARMCC\include\stddef.h)(0x5F64222C)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F64222C)
+I (Serial.h)(0x5320AE3E)
+F (.\Serial.c)(0x5320AE3E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\_STM32F401_Flash-IC:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\flash\serial.o --omf_browse .\flash\serial.crf --depend .\flash\serial.d)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F6BD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F64222C)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83A172)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B6C86)
+I (Serial.h)(0x5320AE3E)
+F (.\Blinky.c)(0x5FC16949)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\_STM32F401_Flash-IC:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\flash\blinky.o --omf_browse .\flash\blinky.crf --depend .\flash\blinky.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdio.h)(0x5F64222C)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_LED.h)(0x5D14B81A)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F64222C)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_Buttons.h)(0x5D14B81A)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83A172)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B6C86)
+I (Serial.h)(0x5320AE3E)
+F (.\Custom_Buttons.c)(0x5FC169F9)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\_STM32F401_Flash-IC:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\flash\custom_buttons.o --omf_browse .\flash\custom_buttons.crf --depend .\flash\custom_buttons.d)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F6BD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F64222C)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83A172)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B6C86)
+I (Custom_Buttons.h)(0x5FC16903)
+F (.\Custom_Buttons.h)(0x5FC16903)()
+F (.\Abstract.txt)(0x56C62004)()
+F (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32NUCLEO_BSP\1.7.0\Boards\ST\NUCLEO-F401RE\Common\Buttons_NUCLEO_F401RE.c)(0x558AFA76)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\_STM32F401_Flash-IC:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\flash\buttons_nucleo_f401re.o --omf_browse .\flash\buttons_nucleo_f401re.crf --depend .\flash\buttons_nucleo_f401re.d)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F6BD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F64222C)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83A172)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_Buttons.h)(0x5D14B81A)
+F (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32NUCLEO_BSP\1.7.0\Boards\ST\NUCLEO-F401RE\Common\LED_NUCLEO_F401RE.c)(0x5ADDC46E)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\_STM32F401_Flash-IC:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\flash\led_nucleo_f401re.o --omf_browse .\flash\led_nucleo_f401re.crf --depend .\flash\led_nucleo_f401re.d)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F6BD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F64222C)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83A172)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board\Board_LED.h)(0x5D14B81A)
+F (RTE\Device\STM32F401RETx\startup_stm32f401xe.s)(0x58753724)(--cpu Cortex-M4.fp.sp --pd "__EVAL SETA 1" -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_STM32F401_Flash-IC:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 532" --pd "_RTE_ SETA 1" --pd "STM32F401xE SETA 1" --pd "_RTE_ SETA 1"--list .\flash\startup_stm32f401xe.lst --xref -o .\flash\startup_stm32f401xe.o --depend .\flash\startup_stm32f401xe.d)
+F (RTE\Device\STM32F401RETx\system_stm32f4xx.c)(0x58753724)(-c --cpu Cortex-M4.fp.sp -D__EVAL -D__MICROLIB -g -O0 --apcs=interwork -I.\RTE\_STM32F401_Flash-IC:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\MDK-Middleware\7.12.0\Board-IC:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="532" -D_RTE_ -DSTM32F401xE -D_RTE_-o .\flash\system_stm32f4xx.o --omf_browse .\flash\system_stm32f4xx.crf --depend .\flash\system_stm32f4xx.d)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f4xx.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\stm32f401xe.h)(0x5F6B6C86)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm4.h)(0x5E8F6BD2)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x5F64222C)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E83A172)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\mpu_armv7.h)(0x5E8F6BD2)
+I (C:\Users\edulu\AppData\Local\Arm\Packs\Keil\STM32F4xx_DFP\2.15.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include\system_stm32f4xx.h)(0x5F6B6C86)
