@@ -1,1 +1,1 @@
-# BCC425-Embedded-Systems
+# BCC425 - Embedded Systems
